@@ -58,7 +58,7 @@ An advanced route optimization system that calculates the shortest possible rout
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/optimized-route-planner.git
+   git clone https://github.com/iabhinavtiwari247/optimized-route-planner.git
    cd optimized-route-planner
    ```
 
