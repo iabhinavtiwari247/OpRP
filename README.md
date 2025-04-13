@@ -476,3 +476,45 @@ This project is licensed under the MIT License - see the LICENSE file for detail
    ```
    docker-compose down
    ```
+
+
+To Download the app : 
+If you want to download the entire Dockerized app to your pc then :
+
+Steps:
+
+1. Export the Docker image:
+
+docker save -o my_app_image.tar my-app-image-name
+
+
+2. Transfer the .tar file to another PC:
+
+Use USB, FTP, SCP, or any file-sharing method.
+
+
+
+3. On the PC: Install Docker if not already:
+
+Download Docker and install.
+
+
+
+4. Load the Docker image:
+
+docker load -i my_app_image.tar
+
+
+5. Run the Docker container:
+
+docker run -d -p 8080:80 my-app-image-name
+
+
+6. Access the application on the new PC:
+
+In the browser: http://localhost:8080
+
+
+
+
+
